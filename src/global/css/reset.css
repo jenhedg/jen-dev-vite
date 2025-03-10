@@ -1,0 +1,66 @@
+/* https://keithjgrant.com/posts/2024/01/my-css-resets/ */
+
+@layer reset {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: unset;
+    font-family: var(--font-main);
+    height: 100vh;
+    min-height: 100vh
+  }
+
+  h1, h2, h3, h4, h5, h6, p , ul, ol, li {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5;
+  }
+
+  p {
+    line-height: 1.2;
+  }
+
+  ul, ol, li {
+    line-height: 1.4;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+    cursor: pointer;
+  }
+
+  img,
+  picture,
+  svg,
+  canvas {
+    display: block;
+    max-inline-size: 100%;
+    block-size: auto;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

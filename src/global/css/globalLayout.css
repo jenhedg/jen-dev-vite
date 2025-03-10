@@ -1,0 +1,12 @@
+.page {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--black);
+}
+
+.page .main-content {
+    position: relative;
+    padding: 40px 20px;
+    background-color: var(--black);
+}
+   

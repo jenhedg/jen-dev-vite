@@ -1,0 +1,20 @@
+.btn {
+  padding: 10px 20px;
+  font-family: var(--font-main);
+  font-size: 20px;
+  line-height: 1;
+  font-weight: var(--font-base-weight);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.25px;
+  color: var(--white);
+  background-color: var(--purple);
+  border-radius: 3px;
+  transition: background-color var(--hover-transition);
+}
+
+.btn:hover {
+  background-color: var(--light-purple);
+
+}
+

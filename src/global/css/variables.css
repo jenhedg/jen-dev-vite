@@ -1,0 +1,28 @@
+:root {
+    /* --font-main: "Inter", sans-serif; */
+    --font-main: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+    /* Colors */
+    --black: #222222;
+    --slate-black: #424342; 
+    --white: #ffffff;
+    --off-white: #fffff4;
+    --grey: #f2f2f2;
+    --blue: #2b50aaff;
+    --dark-blue: #2b4b98;
+    --pink: #ff9fe5ff;
+    --hotpink: #F82EC2;
+    --purple:	#6300A6;
+    --light-purple: #8100D9;
+    --dark-purple: #7300c2;
+    --tea-green: #c6dec6ff;
+    --beige: #E4DFDA;
+  
+    /* Hover Colors */
+    --hover-text-color-dark: var(--purple);
+    --hover-text-color-light: var(--tea-green);
+  
+    /*Transition*/
+    --hover-transition: 0.3s ease-in;
+    --mobile-menu-transition: 0.23s ease;
+}
