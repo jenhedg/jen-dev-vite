@@ -1,5 +1,9 @@
 import { Link } from 'react-router-dom';
+
+import ContentDivider from "../../components/ContentDivider/ContentDivider"
+
 import "./Footer.css";
+import '../../components/ContentDivider/ContentDivider.css';
 
 export default function Footer() {
   const date = new Date();
@@ -7,6 +11,8 @@ export default function Footer() {
 
   return (
     <footer className="footer">
+      <ContentDivider/>
+
       <div className="footer-wrapper">
         <ul className="links">
           <li>

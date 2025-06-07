@@ -10,23 +10,26 @@
 	padding: 0;
 }
 
-.resume :is(.resume-title,
+.resume :is(
+	.resume-title,
 	.resume-role,
 	.resp-list,
 	.sidebar-title) {
 	color: var(--black)
 }
 
+.resume .sidebar-title {
+	font-size: 30px;
+}
 .resume .resume-header {
-
-	padding: 20px;
 	background-color: var(--black);
-	border-bottom: 2px double var(--hotpink);
+	text-align: center;
 }
 
 .resume .resume-header :is(
     .resume-title,
 	.resume-subtitle,
+	.resume-location a,
 	.contact-list li a
 ) {
 	color: var(--white);
@@ -34,7 +37,7 @@
 
 .resume .resume-header {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	position: relative;
@@ -42,17 +45,21 @@
 }
 
 .resume .resume-subtitle {
-	margin-bottom: 20px;
+	font-size: 38px;
+    font-weight: 600;
 }
 
 .resume .contact-list {
-	display: grid;
-	column-gap: 2px;
-	row-gap: 8px;
-	max-width: 500px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .resume .contact-item {
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: 500;
+}
+.resume .resume-location {
 	list-style-type: none;
 	font-size: 14px;
 	font-weight: 500;
@@ -70,20 +77,37 @@
 
 .resume .contact-item a {
 	display: inline-flex;
+    gap: 8px;
+	align-items: center;
+	font-size: 22px;
+    font-weight: 800;
+	text-decoration: none;
+	color: var(--black);
+}
+
+.resume .resume-location a {
+	display: inline-flex;
 	gap: 8px;
+	font-size: 26px;
 	text-decoration: none;
 }
 
-.resume .contact-item svg {
+.resume .contact-item svg,
+.resume .resume-location svg {
 	margin-right: 4px;
+	color: var(--dark-purple);
+	font-size: 22px;
+}
+
+.resume .resume-location svg {
+	font-size: 32px;
 	color: var(--pink);
-	font-size: 18px;
 }
 
 .resume .resume-title {
 	font-size: 32px;
 	line-height: 1;
-	font-weight: 500;
+	font-weight: 800;
 }
 
 .resume .resume-intro {
@@ -94,7 +118,10 @@
 	padding: 20px;
 }
 
-.resume :is(.resume-role, .sidebar-item) {
+.resume :is(
+	.resume-role,
+	.sidebar-item
+) {
 	margin-bottom: 20px;
 	padding: 20px;
 	border-radius: 6px;
@@ -156,13 +183,11 @@
 }
 
 .resume .sidebar-item .sidebar-list-item {
-    margin-bottom: 8px;
-	font-weight: 400;
+	font-weight: 500;
 }
 
-.resume .sidebar .sidebar-item .sidebar-institution {
-	font-weight: 500;
-	text-transform: uppercase;
+.resume .sidebar-item .sidebar-list-item span {
+	font-weight: 600;
 }
 
 @media (min-width: 1024px) {
@@ -179,7 +204,6 @@
 	.resume .resume-header {
         grid-row: 1;
         grid-column: 1 / span 5;
-		align-items: flex-start;
         margin-bottom: 30px;
 	}
 
@@ -192,7 +216,7 @@
     }
 
 	.resume .resume-title {
-		font-size: 42px;
+		font-size: 60px;
 	}
 
 	.resume .resume-role h3,
@@ -208,12 +232,25 @@
 		font-size: 16px;
 	}
 
-	.resume :is(.resp-list, .sidebar-list) {
+	.resume .resp-list {
 		padding-left: 20px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+
+	.resume .resp-list li {
+		font-weight: 500;
+	}
+
+
+	.resume :is(.resp-list, .sidebar-list) li {
 		font-size: 16px;
 	}
 
-	.resume :is(.resp-list, .sidebar-list) li {
+	.resume .sidebar-list {
+		padding-left: 0;
+		list-style-type: none;
+		margin-bottom: 8px;
 		font-size: 16px;
 	}
 

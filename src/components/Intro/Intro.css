@@ -53,24 +53,19 @@
 }
 
 .intro .intro-content :is(
-p > .link, 
-ul li a.link 
+    p > .link,
+    ul li a.link
 ) {
     color: var(--hotpink);
     font-weight: 600;
-    text-decoration: none;
-}
-
-.intro .excite-list {
-    list-style-type: none;
-    padding: 0;
+    text-decoration: underline;
 }
 
 .intro .intro-content :is(
-p > .link, 
-ul li a.link
+    p > .link,
+    ul li a.link
 ):is(:hover) {
-    color: var(--hover-text-color-dark);
+    text-decoration: none;
 }
 
 @media (min-width: 1024px){
@@ -92,6 +87,7 @@ ul li a.link
     }
 
     .intro .intro-text {
-        font-size: 24px;
+        margin-bottom: 20px;
+        font-size: 22px;
     }
 }

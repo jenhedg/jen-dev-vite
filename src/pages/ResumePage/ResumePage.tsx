@@ -17,15 +17,18 @@ const ResumePage = () => {
         <MobileNav />
             <main className="main-content">
             <div className="resume">
+                {/* Contact */}
                 <div className="resume-header">
-                <h2 className="resume-title">Jennifer Hedgcock</h2>
-                <h3 className="resume-subtitle">Front End Developer</h3>
-                <ul className="contact-list">
-                    <li className="contact-item">
+                <div className="title-cont">
+                    <h2 className="resume-title">Jennifer Hedgcock</h2>
+                    <h3 className="resume-subtitle">Web Developer</h3>
+                    <li className="resume-location">
                         <Link to="https://www.visittucson.org/" target="_blank">
                         <FontAwesomeIcon icon={faMapLocationDot} /> Tucson, Arizona
                         </Link>
                     </li>
+                </div>
+                {/* <ul className="contact-list">
                     <li className="contact-item">
                         <Link to="mailto:jennifernhf@gmail.com" target="_blank">
                         <FontAwesomeIcon icon={faEnvelope} /> Email
@@ -41,21 +44,20 @@ const ResumePage = () => {
                         <FontAwesomeIcon icon={faCodepen} />Codepen
                         </Link>
                     </li>
-                </ul>
+                </ul> */}
                 </div>
+                {/* Roles */}
                 <div className="resume-roles">
                     <article className="resume-role">
                         <h3 className="resume-title">Web Developer</h3>
                         <h4 className="resume-company"> Granicus (formerly Simpleview)</h4>
                         <p className="resume-dates"><i>January 2025 - present</i></p>
                         <ul className="resp-list">
-                            <li>Implement and maintain data-driven CMS SaaS product applications</li>
-                            <li>Build modular, performant, responsive web components with HTML, JS, CSS, Vue.js</li>
-                            <li>Implement front-end designs and wireframes (Figma/Adobe XD/Photoshop) with pixel perfection.</li>
-                            <li>Contribute to maintainence and enhancement of CMS front-end framework via Git pull requests.</li>
-                            <li>Create and maintain documentation for system features and modules in Confluence.</li>
-                            <li>Strategically plan and execute projects within allocated timelines and budget constraints</li>
-                            <li>Complete work autonomously, collaborating as needed with team and product stakeholders.</li>
+                            <li>Build modular, performant components using HTML, CSS, JS, Vue.js</li>
+                            <li>Implement and customize client-side data integrations via API, Node server, and MongoDB Compass</li>
+                            <li>Translate designs from Figma, XD, and Photoshop with pixel precision and responsive layouts</li>
+                            <li>Contribute to and maintain the front-end framework and documentation in Git/Confluence</li>
+                            <li>Train and mentor junior developers, providing code reviews, onboarding support, and technical guidance</li>
                         </ul>
                     </article>
                     <article className="resume-role">
@@ -63,13 +65,10 @@ const ResumePage = () => {
                         <h4 className="resume-company"> Simpleview</h4>
                         <p className="resume-dates"><i>December 2020 - January 2025</i></p>
                         <ul className="resp-list">
-                            <li>Implement and maintain data-driven CMS SaaS product applications</li>
-                            <li>Build modular, performant, responsive web components with HTML, JS, CSS, Vue.js</li>
-                            <li>Implement front-end designs and wireframes (Figma/Adobe XD/Photoshop) with pixel perfection.</li>
-                            <li>Contribute to maintainence and enhancement of CMS front-end framework via Git pull requests.</li>
-                            <li>Create and maintain documentation for system features and modules in Confluence.</li>
-                            <li>Strategically plan and execute projects within allocated timelines and budget constraints</li>
-                            <li>Complete work autonomously, collaborating as needed with team and product stakeholders.</li>
+                        <li>Delivered data-driven SaaS CMS applications for global clients in the travel and tourism sector</li>
+                        <li>Developed reusable components and improved front-end performance and structure</li>
+                        <li>Supported cross-team collaboration between design, QA, and implementation groups</li>
+                        <li>Authored clear documentation for both internal developers and client teams</li>
                         </ul>
                     </article>
                     <article className="resume-role">
@@ -77,11 +76,9 @@ const ResumePage = () => {
                         <h4 className="resume-company">Petsmart</h4>
                         <p className="resume-dates"><i>August 2020 - December 2020</i></p>
                         <ul className="resp-list">
-                            <li>Programmed enterprise-level webapps, microsites and marketing tools.</li>
-                            <li>Self-led SCSS and front end build tooling refactoring project</li>
-                            <li>Integrated front-end with Magnolia CMS and Java backend.</li>
-                            <li>Led daily/weekly releases and deployments. </li>
-                            <li>Created documentation and style guides for both clients and internal teams.</li>
+                            <li>Delivered React-based experiences and Salesforce CMS maintenance</li>
+                            <li>Self-led optimization of legacy e-commerce front end, rebuilding Webpack tooling and refactoring and optimizing SCSS framework</li>
+                            <li>Created technical documentation and improved process efficiency across development team</li>
                         </ul>
                     </article>
                     <article className="resume-role">
@@ -89,45 +86,85 @@ const ResumePage = () => {
                         <h4 className="resume-company">Crescendo Collective</h4>
                         <p className="resume-dates"><i>February 2016 - Mar 2020</i></p>
                         <ul className="resp-list">
-                            <li>Programmed enterprise-level CMS webapps, microsites and marketing tools</li>
-                            <li>Collaborated with client-led, internal and offshore QA teams</li>
-                            <li>Led daily/weekly releases and deployments</li>
+                            <li>Planned, built, and deployed enterprise Magnolia CMS webapps and digital tools</li>
+                            <li>Collaborated in Agile sprints with client teams, internal teams and offshore QA teams</li>
+                            <li>Managed version-controlled releases, code reviews, and deployments</li>
+                            <li>Authored documentation and front-end style guides for consistent UI delivery</li>
                         </ul>
                     </article>
-                    <article className="resume-role">
-                            <h3 className="resume-title">Spanish Tutor</h3>
-                            <h4 className="resume-company">Wyzant</h4>
-                            <p className="resume-dates"><i>January 2015 - January 2016</i></p>
-                            <ul className="resp-list">
-                                <li>Tutored K-12 and college students with Spanish coursework and test preparation</li>
-                            </ul>
-                    </article>
-                    <article className="resume-role">
-                            <h3 className="resume-title">Lab Assistant</h3>
-                            <h4 className="resume-company">Gemological Institute of America</h4>
-                            <p className="resume-dates"><i>July 2013 - August 2014</i></p>
-                            <ul className="resp-list">
-                                <li>Processed 400+ precious stones daily using various diagnostic testing technologies</li>
-                                <li>Supported research team to develop and test proprietary diagnostic technologies</li>
-                            </ul>
-                    </article>
                 </div>
+                {/* Sidebar Content */}
                 <div className="resume-sidebar">
                     <aside className="sidebar-content">
+                         {/* Contact */}
+                         <article className="sidebar-item">
+                            <ul className="contact-list">
+                                <li className="contact-item">
+                                    <Link to="mailto:jennifernhf@gmail.com" target="_blank">
+                                    <FontAwesomeIcon icon={faEnvelope} /> Email
+                                    </Link>
+                                </li>
+                                <li className="contact-item">
+                                    <Link to="https://github.com/jenhedg" target="_blank">
+                                    <FontAwesomeIcon icon={faGithubAlt} /> Github
+                                    </Link>
+                                </li>
+                                <li className="contact-item">
+                                    <Link to="https://codepen.io/sparkleOven" target="_blank">
+                                    <FontAwesomeIcon icon={faCodepen} />Codepen
+                                    </Link>
+                                </li>
+                            </ul>
+                        </article>
+                        {/* Education */}
                         <article className="sidebar-item">
                             <h3 className="sidebar-title">Education</h3>
                             <ul className="sidebar-list">
-                                <li className='sidebar-list-item'><span>IBM Certificate, Generative AI: Introduction & Applications</span>, 2024</li>
-                                <li className='sidebar-list-item'><span>IBM Certificate, Artificial Intelligence</span>, 2024</li>
-                                <li className='sidebar-list-item'><span>AA, Web Development & Design</span> -<span className="sidebar-institution"> MiraCosta College</span>, 2015 </li>
-                                <li className='sidebar-list-item'><span>BA, Latin American Studies & Political Science</span> - <span className="sidebar-institution"> The University of Arizona</span>, 2007</li>
+                                <li className='sidebar-list-item'><span>IBM, 2024</span></li>
+                                <li className='sidebar-list-item'><i>Certificate, Generative AI: Introduction & Applications</i></li>
+                                <li className='sidebar-list-item'><i>Certificate, Introduction to Artificial Intelligence</i></li>
+                            </ul>
+                            <ul className="sidebar-list">
+                                <li className='sidebar-list-item'><span>MiraCosta College, 2015</span></li>
+                                <li className='sidebar-list-item'><i>AA, Web Development & Design</i></li>
+                            </ul>
+                            <ul className="sidebar-list">
+                                <li className='sidebar-list-item'><span>The University of Arizona, 2007</span></li>
+                                <li className='sidebar-list-item'><i>BA, Latin American Studies & Political Science</i></li>
                             </ul>
                         </article>
+                        {/* Affiliations */}
                         <article className="sidebar-item">
                             <h3 className="sidebar-title">Affiliations</h3>
                             <ul className="sidebar-list">
-                                <li className='sidebar-list-item'>Amphitheater Public Schools Career Advisory Panel, 2025</li>
-                                <li className='sidebar-list-item'>Girls Who Code Guest Speaker, CDO High School, 2024</li>
+                                <li className='sidebar-list-item'>Amphitheater Public Schools Career Advisory Panel</li>
+                                <li className='sidebar-list-item'>Girls Who Code Guest Speaker, CDO High School</li>
+                            </ul>
+                        </article>
+                           {/* Affiliations */}
+                        <article className="sidebar-item">
+                            <h3 className="sidebar-title">Interests</h3>
+                            <ul className="sidebar-list">
+                                <li className='sidebar-list-item'>Content Management Systems</li>
+                                <li className='sidebar-list-item'>UI Systems and Frameworks</li>
+                                <li className='sidebar-list-item' >Accessibility</li>
+                                <li className='sidebar-list-item'>Process Documentation</li>
+                                <li className='sidebar-list-item'>Artificial Intelligence</li>
+                            </ul>
+                        </article>
+                        {/* Languages and Frameworks */}
+                        <article className="sidebar-item">
+                            <h3 className="sidebar-title">Languages, Frameworks and Tools</h3>
+                            <ul className="sidebar-list">
+                                <li className='sidebar-list-item'>English</li>
+                                <li className='sidebar-list-item'>Spanish</li>
+                                <li className='sidebar-list-item'>React.js</li>
+                                <li className='sidebar-list-item'>Vue.js</li>
+                                <li className='sidebar-list-item'>TypeScript</li>
+                                <li className='sidebar-list-item'>CSS and SASS</li>
+                                <li className='sidebar-list-item'>Webpack Build Tooling</li>
+                                <li className='sidebar-list-item'>Git</li>
+                                <li className='sidebar-list-item'>VS Code with Pink Cat Boo Theme</li>
                             </ul>
                         </article>
                     </aside>
