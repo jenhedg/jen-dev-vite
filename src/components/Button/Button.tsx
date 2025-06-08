@@ -7,10 +7,12 @@ interface Props {
   className: string
 }
 
-export default function Button({ title, to}: Props) {
+export default function Button({ className, title, to}: Props) {
   return (
-    <Link className="btn" to={to}>
-      {title}
+    <Link
+      className={className}
+      to={to}>
+        {title}
     </Link>
   )
 }

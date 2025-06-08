@@ -16,9 +16,13 @@
     --light-purple: #8100D9;
     --dark-purple: #7300c2;
     --tea-green: #c6dec6ff;
+    --tea-green-dark: rgb(126, 223, 126);
     --beige: #E4DFDA;
+    --red: #f73451;
+    --red-light: #d2213c;
+
   
-    /* Hover Colors */
+    /* Hover Colo`rs */
     --hover-text-color-dark: var(--purple);
     --hover-text-color-light: var(--tea-green);
   

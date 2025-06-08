@@ -6,7 +6,7 @@
 
 .page .main-content {
     position: relative;
-    padding: 40px 20px;
+    /* padding: 40px 0; */
     background-color: var(--black);
 }
    

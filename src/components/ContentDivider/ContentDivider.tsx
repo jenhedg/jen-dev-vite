@@ -5,25 +5,14 @@ const SvgComponent = (props: SVGProps<SVGSVGElement>) => (
     height={166.615}
     className="contentDivider"
     preserveAspectRatio="none"
-    viewBox="0.4 0.2 200 44"
+    viewBox="0 0 1000 100"
     {...props}
   >
-    <g className="separator">
-      <path
-        d="M9.485 89.716H209.81v37.19l-99.346-33.2L9.579 127.392Z"
-        style={{
-          fill: "#b5002b",
+    <path d="M0 0v90.2C49.7 99.9 105 82 160 65c75.5-23.3 145.5-22.4 222-3 63 16 119 14 173-8 79.5-32.4 156.2-27.6 240-10 82.6 17.4 143-1 205-31.7V0H0Z"
+         style={{
+          fill: "var(--black)",
         }}
-        transform="translate(-9.222 -83.495)"
-      />
-      <path
-        d="M9.354 83.627h200.328v36.664l-99.218-26.586L9.449 120.772Z"
-        style={{
-          fill: "#ff1a51",
-        }}
-        transform="translate(-9.222 -83.495)"
-      />
-    </g>
+    ></path>
   </svg>
 )
 export default SvgComponent

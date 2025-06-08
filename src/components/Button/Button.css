@@ -7,14 +7,45 @@
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1.25px;
-  color: var(--white);
-  background-color: var(--purple);
   border-radius: 3px;
   transition: background-color var(--hover-transition);
 }
 
-.btn:hover {
-  background-color: var(--light-purple);
-
+.btn.purple {
+  color: var(--white);
+  background-color: var(--purple);
 }
+
+.btn.green {
+  color: var(--black);
+  background-color: var(--tea-green);
+}
+
+.btn.red{
+  color: var(--white);
+  background-color: var(--red);
+}
+
+@media (hover: hover) {
+  .btn.purple:hover {
+    background-color: var(--light-purple);
+  }
+
+  .btn.green:hover {
+    background-color: var(--tea-green-dark);
+  }
+
+  .btn.red:hover {
+    background-color: var(--red-light);
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .btn {
+    padding: 20px;
+    font-size: 26px;
+  }
+}
+
+
 
