@@ -11,9 +11,9 @@ export default function nav() {
         <li className="nav-item">
         <Link to="/resume">Resume</Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link to="/contact">Contact</Link>
-        </li>
+        </li> */}
     </ul>
   );
 }
