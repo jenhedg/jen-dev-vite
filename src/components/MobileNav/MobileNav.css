@@ -10,6 +10,7 @@
 }
 
 .mobile-nav .burger {
+  pointer-events: all;
   height: 50px;
   width: 50px;
   padding: 0;

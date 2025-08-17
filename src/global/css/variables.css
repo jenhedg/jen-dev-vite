@@ -1,5 +1,4 @@
 :root {
-    /* --font-main: "Inter", sans-serif; */
     --font-main: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   
     /* Colors */
@@ -27,6 +26,7 @@
     --hover-text-color-light: var(--tea-green);
   
     /*Transition*/
+    --transition: 0.25s ease-in;
     --hover-transition: 0.3s ease-in;
     --mobile-menu-transition: 0.23s ease;
 }

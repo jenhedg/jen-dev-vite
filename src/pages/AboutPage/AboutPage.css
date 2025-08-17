@@ -1,0 +1,84 @@
+.page.aboutPage{
+    background-color: var(--beige);
+}
+
+.page.aboutPage .main-content {
+    padding: 20px;
+    background-color: transparent;
+}
+
+.aboutPage .col.right {
+    padding: 10px;
+}
+
+.aboutPage .intro-cont {
+    max-width: 1224px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.aboutPage .img-cont {
+    position: relative;
+}
+
+.aboutPage .img-cont::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(114, 114, 114, 0.25);
+}
+
+.aboutPage .img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 10px solid var(--purple);
+    max-width: 640px;
+    max-height: 640px;
+    aspect-ratio: 1 / 1;
+}
+
+.aboutPage .intro-inner {
+    position: relative;
+}
+
+.aboutPage  .intro-title {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    color: var(--off-white);
+    font-family: var(--font-main);
+    font-size: 58px;
+    text-shadow: 2px 2px 2px var(--black);
+    z-index: 1;
+}
+
+.aboutPage .desc {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 64em) {
+    .aboutPage .intro-cont {
+        flex-direction: row;
+    }
+
+    .aboutPage .col.left {
+        width: 90%;
+    }
+
+    .aboutPage  .intro-title {
+        font-size: 68px;
+    }
+
+    .aboutPage  .desc {
+        font-size: 32px;
+    }
+
+}

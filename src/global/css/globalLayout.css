@@ -9,4 +9,10 @@
     /* padding: 40px 0; */
     background-color: var(--black);
 }
+
+
+/* Party Theme */
+.page.party-theme {
+    background-color: red;
+}
    
