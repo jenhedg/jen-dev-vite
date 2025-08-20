@@ -1,3 +1,12 @@
 .contentDivider {
     width: 100%;
 }
+
+.contentDivider path {
+ fill: var(--black);
+}
+
+/* Light Theme */
+.light-theme .contentDivider path {
+    fill: var(--beige);
+   }

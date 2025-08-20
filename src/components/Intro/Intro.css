@@ -104,3 +104,10 @@
         font-size: 22px;
     }
 }
+
+
+/* Light Theme */
+
+.light-theme .intro .intro-item {
+    color: var(--black);
+}

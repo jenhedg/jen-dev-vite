@@ -1,6 +1,6 @@
 .footer {
   position: relative;
-  border-top: 1px solid var(--black);
+  border-top: 1px solid var(--hotpink);
   background-color: var(--black);
   padding: 40px 20px;
 }
@@ -56,4 +56,14 @@
 
 .footer .link:hover {
   color: var(--light-purple);
+}
+
+/* Light Theme */
+.light-theme .footer {
+  background-color: var(--light-purple);
+}
+
+.light-theme .footer .link,
+.footer .footer-legal p {
+  /* color: var(--black); */
 }

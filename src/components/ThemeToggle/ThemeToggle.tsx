@@ -1,7 +1,7 @@
-import { useContext, useState, useEffect } from 'react';
+import { useContext, } from 'react';
 import { ThemeContext } from '../../hooks/ThemeContext';
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMoon, faSun} from '@fortawesome/free-solid-svg-icons';
 
 function ThemeToggle() {
     const {
@@ -13,7 +13,12 @@ function ThemeToggle() {
         <button
             className="theme-toggle"
             onClick={toggleTheme}>
-               {theme === 'light-theme' ? 'Light Theme' : 'Dark Theme'}
+                <div className="icon">
+                    <FontAwesomeIcon icon={theme === 'light-theme' ? faSun : faMoon} />
+                </div>
+                <div className="text">
+                    {theme === 'light-theme' ? 'Light Theme' : 'Dark Theme'}
+                </div>
         </button>
   );
 }

@@ -6,13 +6,11 @@
 
 .page .main-content {
     position: relative;
-    /* padding: 40px 0; */
     background-color: var(--black);
 }
 
 
-/* Party Theme */
-.page.party-theme {
-    background-color: red;
+/* Light Theme */
+.light-theme .page .main-content {
+    background-color: var(--beige)
 }
-   

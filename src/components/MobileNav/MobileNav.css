@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
-  background-color: var(--dark-purple);
+  background-color: var(--black);
   border-bottom: 1px solid var(--pink);
   z-index: 11;
 }
@@ -67,4 +67,8 @@
   .mobile-nav .nav li a:hover {
     color: var(--hotpink);
   }
+}
+
+.light-theme .mobile-nav {
+  background-color: var(--dark-purple);
 }
