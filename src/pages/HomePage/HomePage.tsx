@@ -1,4 +1,4 @@
-import { ThemeProvider, setThemeClass} from '../../hooks/ThemeContext';
+import { ThemeProvider} from '../../hooks/ThemeContext';
 
 
 import MobileNav from '../../components/MobileNav/MobileNav'
