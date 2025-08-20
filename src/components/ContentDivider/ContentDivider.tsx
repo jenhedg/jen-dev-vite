@@ -1,5 +1,4 @@
 import { SVGProps } from "react"
-import "./contentDivider.css";
 
 const SvgComponent = (props: SVGProps<SVGSVGElement>) => (
 
