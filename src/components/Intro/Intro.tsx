@@ -16,10 +16,9 @@ export default function Intro() {
                         <p className="intro-text">
                             I enjoy working with the following:
                             <ul className="intro-list">
-                                <li className="list-item"><strong>React</strong></li>
                                 <li className="list-item"><strong>CMS & SaaS Systems</strong></li>
                                 <li className="list-item"><strong>XD Implemetation</strong></li>
-                                <li className="list-item"><strong>CSS UI Frameworks</strong></li>
+                                <li className="list-item"><strong>UI Systems Design</strong></li>
                                 <li className="list-item"><strong>Technical Documentation</strong></li>
                                 <li className="list-item"><strong>Process Optimization</strong></li>
                             </ul>
