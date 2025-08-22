@@ -10,10 +10,8 @@ export default function Intro() {
         <div className="intro">
             <div className="intro-inner">
                 <article className="intro-item">
-                    <h2 className="intro-title"><span>Jennifer Hedgcock</span></h2>
                     <div className="intro-content">
-                        <p className="intro-subtitle"><span>Front End Developer</span></p>
-                        <p className="intro-text">I'm currently a Web Developer at <Link className="link" to="https://www.granicus.com" target="_blank">Granicus</Link> (*formerly <Link className="link" to="https://www.simpleviewinc.com/" target="_blank"> Simpleview</Link>), build data-driven webapps for the travel and tourism industry.</p>
+                        <p className="intro-subtitle"><strong>Hi, I'm Jen!</strong> I'm a Front End Developer.<br/>I make websites for the tourism industry at <Link className="link" to="https://www.granicus.com" target="_blank">Granicus</Link>.</p>
 
                         <p className="intro-text">
                             I enjoy working with the following:
@@ -21,7 +19,7 @@ export default function Intro() {
                                 <li className="list-item"><strong>React</strong></li>
                                 <li className="list-item"><strong>CMS & SaaS Systems</strong></li>
                                 <li className="list-item"><strong>XD Implemetation</strong></li>
-                                <li className="list-item"><strong>UI Frameworks</strong></li>
+                                <li className="list-item"><strong>CSS UI Frameworks</strong></li>
                                 <li className="list-item"><strong>Technical Documentation</strong></li>
                                 <li className="list-item"><strong>Process Optimization</strong></li>
                             </ul>
