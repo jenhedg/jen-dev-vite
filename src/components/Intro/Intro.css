@@ -48,6 +48,10 @@
     font-weight: 400;
 }
 
+.intro .intro-list {
+    padding-left: 16px;
+}
+
 .intro .btn-wrapper {
     display: flex;
     justify-content: center;
@@ -103,8 +107,11 @@
         margin-bottom: 20px;
         font-size: 22px;
     }
-}
 
+    .intro .intro-list .list-item {
+        font-size: 20px;
+    }
+}
 
 /* Light Theme */
 
