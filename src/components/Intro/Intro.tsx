@@ -18,6 +18,7 @@ export default function Intro() {
                             <ul className="intro-list">
                                 <li className="list-item"><strong>CMS & SaaS Systems</strong></li>
                                 <li className="list-item"><strong>XD Implemetation</strong></li>
+                                <li className="list-item"><strong>All things CSS</strong></li>
                                 <li className="list-item"><strong>UI Systems Design</strong></li>
                                 <li className="list-item"><strong>Technical Documentation</strong></li>
                                 <li className="list-item"><strong>Process Optimization</strong></li>
