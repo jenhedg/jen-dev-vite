@@ -11,7 +11,7 @@ export default function Intro() {
             <div className="intro-inner">
                 <article className="intro-item">
                     <div className="intro-content">
-                        <p className="intro-subtitle"><strong>Hi, I'm Jen!</strong> I'm a Front End Developer<br/> I make websites for the tourism industry at <Link className="link" to="https://www.granicus.com" target="_blank">Granicus.</Link>
+                        <p className="intro-subtitle"><strong>Hi, I'm Jen!</strong> I'm a Front End Developer.<br/> I make websites for the tourism industry at <Link className="link" to="https://www.granicus.com" target="_blank">Granicus.</Link>
                         </p>
                         <p className="intro-text">
                             I have a passion for building modern, scalable front ends. I have experience with data-driven CMS & SaaS systems and bespoke, from-scratch projects. I enjoy capturing details with technical documentation and helping teams build better products by focusing on process optimization.
