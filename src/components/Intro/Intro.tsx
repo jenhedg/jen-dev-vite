@@ -16,7 +16,7 @@ export default function Intro() {
                         <p className="intro-text">
                             I have a passion for building modern, scalable front ends. I have experience with data-driven CMS & SaaS systems and bespoke, from-scratch projects. I enjoy capturing details with technical documentation and helping teams build better products by focusing on process optimization.
                         </p>
-                        <p className="intro-text">I created this site from scratch with <Link className="link" to="https://react.dev/" target="_blank"><strong> React</strong></Link>, <Link className="link" to="https://www.typescriptlang.org/" target="_blank"><strong>
+                        <p className="intro-text">I created this site with <Link className="link" to="https://react.dev/" target="_blank"><strong> React</strong></Link>, <Link className="link" to="https://www.typescriptlang.org/" target="_blank"><strong>
                             TypeScript</strong></Link>, <Link className="link" to="  https://vite.dev/" target="_blank"><strong> Vite</strong></Link> and deployed to the interwebs with <Link className="link" to="https://vercel.com/" target="_blank"><strong> Vercel.</strong></Link>
                         </p>
                     </div>
