@@ -11,13 +11,10 @@ export default function Intro() {
             <div className="intro-inner">
                 <article className="intro-item">
                     <div className="intro-content">
-                        <p className="intro-subtitle"><strong>Hi, I'm Jen!</strong> I'm a Front End Developer.<br/> I make websites for the tourism industry at <Link className="link" to="https://www.granicus.com" target="_blank">Granicus.</Link>
-                        </p>
+                        <p className="intro-subtitle"><br></br><strong>Hi, I'm Jen!</strong></p>
+                        <p className="intro-subtitle">I'm a Front End Developer & Automation Specialist</p>
                         <p className="intro-text">
-                            I have a passion for building modern, scalable front ends. I have experience with data-driven CMS & SaaS systems and bespoke, from-scratch projects. I enjoy capturing details with technical documentation and helping teams build better products by focusing on process optimization.
-                        </p>
-                        <p className="intro-text">I created this site with <Link className="link" to="https://react.dev/" target="_blank"><strong> React</strong></Link>, <Link className="link" to="https://www.typescriptlang.org/" target="_blank"><strong>
-                            TypeScript</strong></Link>, <Link className="link" to="  https://vite.dev/" target="_blank"><strong> Vite</strong></Link> and deployed to the interwebs with <Link className="link" to="https://vercel.com/" target="_blank"><strong> Vercel.</strong></Link>
+                            I enjoy bulding efficient, scalable front-end systems that perform.<br></br> I’ve worked on everything from data-driven CMS and SaaS platforms to fully custom, bespoke projects. I also help teams work smarter— by streamlining workflows, automating repetitive tasks, and finding ways to make any process smoother so everyone can focus on the work that really matters.
                         </p>
                     </div>
                 </article>  
