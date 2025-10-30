@@ -11,8 +11,8 @@ export default function Intro() {
             <div className="intro-inner">
                 <article className="intro-item">
                     <div className="intro-content">
-                        <p className="intro-subtitle"><br></br><strong>Hi, I'm Jen!</strong></p>
-                        <p className="intro-subtitle">I'm a Front End Developer & Automation Specialist</p>
+                        <p className="intro-subtitle"><strong>Hi, I'm Jen!</strong></p>
+                        <p className="intro-subtitle"><strong>I'm a Front End Developer & Automation Specialist</strong></p>
                         <p className="intro-text">
                             I enjoy bulding efficient, scalable front-end systems that perform.<br></br> I’ve worked on everything from data-driven CMS and SaaS platforms to fully custom, bespoke projects. I also help teams work smarter— by streamlining workflows, automating repetitive tasks, and finding ways to make any process smoother so everyone can focus on the work that really matters.
                         </p>
