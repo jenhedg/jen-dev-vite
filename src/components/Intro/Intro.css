@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 60px 20px 30px;
 }
@@ -31,54 +31,59 @@
 }
 
 .intro .intro-item {
+    margin-bottom: 40px;
     color: var(--white);
     z-index: 1;
 }
 
-.intro :is(.intro-title, .intro-subtitle) {
+.intro .intro-title {
     margin-bottom: 20px;
-    font-size: 19px;
+    font-size: 28px;
     line-height: 1.25;
 }
 
-.intro .intro-content {
-    margin-bottom: 44px;
-}
-
-.intro .intro-text {
-    margin-bottom: 20px;
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 400;
-}
-
-.intro .intro-list {
-    padding-left: 16px;
-}
-
-.intro .btn-wrapper {
+.intro .intro-list-cont {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+  .intro .intro-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    list-style-type: none;
+    width: 100%;
+    max-width: 640px;
+}
+
+.intro .intro-list li:last-child {
+    margin: auto;
+}
+
+.intro .btn-cont {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.intro .intro-content :is(
-    p > .link,
-    ul li a.link
-) {
-    color: var(--hotpink);
-    font-weight: 600;
-    text-decoration: underline;
-}
-
-.intro .intro-content :is(
-    p > .link,
-    ul li a.link
-):is(:hover) {
-    text-decoration: none;
+@media (min-width: 525px) {
+    .intro .intro-list li:last-child {
+        margin: unset;
+    }
 }
 
 @media screen and (min-width: 40em) {
+
+    .intro {
+        padding: 100px 20px 60px;
+    }
+
     .intro::after {
         top: -128px;
         right: -38%;
@@ -86,12 +91,6 @@
 
     .intro :is(.intro-title, .intro-subtitle) {
         font-size: 24px;
-    }
-}
-
-@media (min-width: 64em){
-    .intro {
-        padding: 100px 20px 0;
     }
 
     .intro .intro-inner {
@@ -104,20 +103,42 @@
     }
 
     .intro .intro-title {
-        font-size: 60px;
+        font-size: 41px;
+    }
+
+    .intro .intro-text {
+        font-size: 18px;
+    }
+
+    .intro .intro-list {
+        max-width: unset;
+        font-size: 28px;
     }
 
     .intro .intro-subtitle {
+        margin-bottom: 20px;
         font-size: 30px;
+        font-style: italic;
     }
 
     .intro .intro-text {
         margin-bottom: 20px;
-        font-size: 22px;
+        font-size: 24px;
+        line-height: 1.5;
+        font-weight: 400;
     }
 
-    .intro .intro-list .list-item {
-        font-size: 20px;
+    .intro .btn-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro .btn-cont {
+        display: flex;
+        gap: 37px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 

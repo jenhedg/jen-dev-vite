@@ -17,7 +17,7 @@ function ThemeToggle() {
                     <FontAwesomeIcon icon={theme === 'light-theme' ? faSun : faMoon} />
                 </div>
                 <div className="text">
-                    {theme === 'light-theme' ? 'Light Theme' : 'Dark Theme'}
+                    {theme === 'light-theme' ? 'Light' : 'Dark'}
                 </div>
         </button>
   );

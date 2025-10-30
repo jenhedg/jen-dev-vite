@@ -9,19 +9,35 @@ export default function Intro() {
         <>
         <div className="intro">
             <div className="intro-inner">
-                <article className="intro-item">
-                    <div className="intro-content">
-                        <p className="intro-subtitle"><strong>Hi, I'm Jen!</strong></p>
-                        <p className="intro-subtitle"><strong>I'm a Front End Developer & Automation Specialist</strong></p>
-                        <p className="intro-text">
-                            I enjoy bulding efficient, scalable front-end systems that perform.<br></br> I’ve worked on everything from data-driven CMS and SaaS platforms to fully custom, bespoke projects. I also help teams work smarter— by streamlining workflows, automating repetitive tasks, and finding ways to make any process smoother so everyone can focus on the work that really matters.
+               <article className="intro-item">
+                    <header className="intro-content">
+                        <p className="intro-title">
+                        <strong>
+                            Hi, I’m Jen Hedgcock.<br></br> I'm a Web Developer, AI & Automation Specialist
+                        </strong>
                         </p>
-                    </div>
-                </article>  
+                    </header>
+                    <p className="intro-text">
+                        I help organizations make technology work for them — building digital experiences, automating workflows, and freeing teams to focus on meaningful work.
+                    </p>
+                    {/* <div className="intro-list-cont"> TODO: build callouts component
+                        <ul className="intro-list">
+                            <li><strong><i>Digital Marketing</i></strong></li>
+                            <li><strong><i>Web Development</i></strong></li>
+                            <li><strong><i>Automation & AI</i></strong></li>
+                        </ul>
+                    </div> */}
+            </article>
             </div>
             <div className="btn-cont">
                 <div className="btn-wrapper">
-                    <Button className="btn purple" title="see my resume" to="/resume"></Button>
+                    <Button className="btn purple" title="resume" to="/resume"></Button>
+                </div>
+                <div className="btn-wrapper">
+                    <Button className="btn green" title="LinkedIn" to="https://linkedin.com/in/jhedgcock"></Button>
+                </div>
+                <div className="btn-wrapper">
+                    <Button className="btn red" title="github" to="https://github.com/jenhedg"></Button>
                 </div>
             </div>
         </div>

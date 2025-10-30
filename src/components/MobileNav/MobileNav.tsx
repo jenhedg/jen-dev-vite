@@ -2,14 +2,14 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import Logo from '../Logo/Logo'
+// import Logo from '../Logo/Logo';
 import Nav from '../Nav/Nav';
 import ThemeToggle from '../ThemeToggle/ThemeToggle';
 
 
 import "./MobileNav.css";
 import "../Nav/Nav.css";
-import "../Logo/Logo.css";
+// import "../Logo/Logo.css";
 import "../ThemeToggle/ThemeToggle.css";
 
 
@@ -36,7 +36,7 @@ export default function MobileNav() {
       >
         <FontAwesomeIcon icon={faBars} />
       </button>
-        <Logo/>
+        {/* <Logo/> */}
         <Nav />
         <ThemeToggle/>
     </div >

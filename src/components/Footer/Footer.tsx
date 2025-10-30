@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="footer-wrapper">
         <ul className="links">
           <li>
-            <Link className="link" to="https://codepen.io/sparkleOven" target="_blank">Codepen</Link>
+            <Link className="link" to="https://www.linkedin.com/in/jhedgcock/" target="_blank">LinkedIn</Link>
           </li>
           <li>
             <Link className="link" to="https://github.com/jenhedg" target="_blank">Github</Link>
